@@ -6,15 +6,21 @@ The primary goal is to derive **actionable insights** that help in improving avi
 
 ## 📂 Dataset Information
 - **Dataset Name:** `Aviation_KPIs_dataset.csv`
-- **Total Rows & Columns:** *(Provide count using `df.shape`)*
+- **Total Rows & Columns:** *Total 200000 rows and 18 columns*
 - **Features:**  
-  - **Independent Variables:** `[Feature1, Feature2, ...]` *(List key variables used for prediction)*  
-  - **Target Variable:** `[Target_Column]` *(What you are predicting?)*  
+  - **Independent Variables:** *Flight Performance Metrics: On-time departures, delays, cancellations.
+Operational Factors: Aircraft type, fuel consumption, crew efficiency.
+Weather Conditions: Temperature, wind speed, visibility.
+Passenger & Traffic Data: Load factor, passenger count, ticket sales.*
+  - **Target Variable:** *The variable we aim to predict based on independent features.
+In this project, it could be flight delays, on-time performance, or passenger satisfaction scores.
+It is influenced by factors like weather, operational efficiency, and passenger traffic.
+The model evaluates how well these factors impact the target for better decision-making.*
 
 ## 🔍 Exploratory Data Analysis (EDA)
 Key steps performed during **EDA**:
 - **Checked for missing values** and handled them appropriately.
-- **Analyzed data distribution** using histograms and boxplots.
+- **Analyzed data distribution** using correlation matrics and boxplots.
 - **Converted categorical data** using label encoding.
 - **Standardized numerical features** for better model performance.
 
