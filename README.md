@@ -51,7 +51,12 @@ Key steps performed during **EDA**:
 - Collect additional data for better generalization.
 - Optimize hyperparameters for improved performance.
 
+## Video Presentation link :
+https://drive.google.com/file/d/12l14U4m3Un5k7rVVjAxvOODQZPjbgkb7/view?usp=sharing
+
 ## 📌 How to Run This Project
 1️⃣ Clone this repository:
 ```bash
 (https://github.com/shraddhakharvi/skylytics)
+
+
